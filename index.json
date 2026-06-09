@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "modules": {
+    "core": {
+      "skills": {
+        "brainstorm": {
+          "1.0.0": "core/skills/brainstorm/1.0.0.tar.gz"
+        },
+        "cook": {
+          "1.0.0": "core/skills/cook/1.0.0.tar.gz"
+        },
+        "debug": {
+          "1.0.0": "core/skills/debug/1.0.0.tar.gz"
+        },
+        "docs": {
+          "1.0.0": "core/skills/docs/1.0.0.tar.gz"
+        },
+        "fix": {
+          "1.0.0": "core/skills/fix/1.0.0.tar.gz"
+        },
+        "git": {
+          "1.0.0": "core/skills/git/1.0.0.tar.gz"
+        },
+        "handoff": {
+          "1.0.0": "core/skills/handoff/1.0.0.tar.gz"
+        },
+        "mk-create": {
+          "1.0.0": "core/skills/mk-create/1.0.0.tar.gz"
+        },
+        "mk-info": {
+          "1.0.0": "core/skills/mk-info/1.0.0.tar.gz"
+        },
+        "mk-init": {
+          "1.0.0": "core/skills/mk-init/1.0.0.tar.gz"
+        },
+        "mk-install": {
+          "1.0.0": "core/skills/mk-install/1.0.0.tar.gz"
+        },
+        "mk-list": {
+          "1.0.0": "core/skills/mk-list/1.0.0.tar.gz"
+        },
+        "mk-outdated": {
+          "1.0.0": "core/skills/mk-outdated/1.0.0.tar.gz"
+        },
+        "mk-publish": {
+          "1.0.0": "core/skills/mk-publish/1.0.0.tar.gz"
+        },
+        "mk-registry-init": {
+          "1.0.0": "core/skills/mk-registry-init/1.0.0.tar.gz"
+        },
+        "mk-search": {
+          "1.0.0": "core/skills/mk-search/1.0.0.tar.gz"
+        },
+        "mk-syncback": {
+          "1.0.0": "core/skills/mk-syncback/1.0.0.tar.gz"
+        },
+        "mk-uninstall": {
+          "1.0.0": "core/skills/mk-uninstall/1.0.0.tar.gz"
+        },
+        "mk-update": {
+          "1.0.0": "core/skills/mk-update/1.0.0.tar.gz"
+        },
+        "mk-validate": {
+          "1.0.0": "core/skills/mk-validate/1.0.0.tar.gz"
+        },
+        "plan": {
+          "1.0.0": "core/skills/plan/1.0.0.tar.gz"
+        },
+        "research": {
+          "1.0.0": "core/skills/research/1.0.0.tar.gz"
+        },
+        "review": {
+          "1.0.0": "core/skills/review/1.0.0.tar.gz"
+        },
+        "scout": {
+          "1.0.0": "core/skills/scout/1.0.0.tar.gz"
+        },
+        "team": {
+          "1.0.0": "core/skills/team/1.0.0.tar.gz"
+        },
+        "test": {
+          "1.0.0": "core/skills/test/1.0.0.tar.gz"
+        },
+        "watzup": {
+          "1.0.0": "core/skills/watzup/1.0.0.tar.gz"
+        }
+      },
+      "agents": {}
+    },
+    "unity": {
+      "skills": {},
+      "agents": {
+        "unity-code-conventions": {
+          "1.0.0": "unity/agents/unity-code-conventions/1.0.0.tar.gz"
+        },
+        "unity-editor-developer": {
+          "1.0.0": "unity/agents/unity-editor-developer/1.0.0.tar.gz"
+        },
+        "unity-reviewer": {
+          "1.0.0": "unity/agents/unity-reviewer/1.0.0.tar.gz"
+        },
+        "unity-runtime-developer": {
+          "1.0.0": "unity/agents/unity-runtime-developer/1.0.0.tar.gz"
+        },
+        "unity-tester": {
+          "1.0.0": "unity/agents/unity-tester/1.0.0.tar.gz"
+        }
+      }
+    }
+  }
+}
