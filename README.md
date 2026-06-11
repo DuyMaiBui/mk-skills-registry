@@ -31,7 +31,7 @@ unity/
 
 ```bash
 # Configure the registry
-mk registry-init https://github.com/mike/mk-skills-registry.git
+mk registry-init https://github.com/DuyMaiBui/mk-skills-registry.git
 
 # Initialize a project
 mk init
