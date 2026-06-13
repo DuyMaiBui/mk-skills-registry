@@ -6,9 +6,6 @@
         "build": {
           "1.0.0": "core/skills/build/1.0.0.tar.gz"
         },
-        "cook": {
-          "1.0.0": "core/skills/cook/1.0.0.tar.gz"
-        },
         "debug": {
           "1.0.0": "core/skills/debug/1.0.0.tar.gz"
         },
