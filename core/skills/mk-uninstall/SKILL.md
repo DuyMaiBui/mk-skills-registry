@@ -1,11 +1,11 @@
 ---
 name: mk-uninstall
-description: mk <module> uninstall <name> — Remove an installed skill or agent.
+description: mk <module> uninstall <name> [--agent] — Remove an installed skill or agent.
 ---
 
 # mk-uninstall
 
-## Detected Intent
+## Use This Skill When
 - "remove skill"
 - "delete skill"
 - "uninstall skill"
@@ -13,10 +13,25 @@ description: mk <module> uninstall <name> — Remove an installed skill or agent
 
 ## Command
 ```bash
-mk <module> uninstall <name>
+mk <module> uninstall <name> [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- Remove the skill directory or agent file.
+- Update skill-lock.json.
+- Do not remove dependencies of other installed skills.
+
+## Example Invocation
+User: "remove the auth skill"
+→ Run: mk core uninstall auth
+
+## Pre-execution Validation
+1. Check skill/agent is installed.
+2. Confirm removal if requested by config.
+
+## Output Standard
+Removal confirmation.
+
+## Exit Condition
+You are done when:
+- Skill/agent is removed and lockfile updated.

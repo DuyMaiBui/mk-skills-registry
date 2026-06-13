@@ -1,11 +1,11 @@
 ---
 name: mk-outdated
-description: mk <module> outdated — Report installed skills or agents that have newer versions.
+description: mk <module> outdated [--agent] — Report installed skills or agents that have newer versions.
 ---
 
 # mk-outdated
 
-## Detected Intent
+## Use This Skill When
 - "outdated skills"
 - "old skills"
 - "check updates"
@@ -13,10 +13,27 @@ description: mk <module> outdated — Report installed skills or agents that hav
 
 ## Command
 ```bash
-mk <module> outdated
+mk <module> outdated [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- Fetch registry index.
+- Compare installed versions with latest.
+- Print table: name | current | wanted | latest.
+- Exit code 1 if any outdated.
+
+## Example Invocation
+User: "are my skills outdated?"
+→ Run: mk core outdated
+
+## Pre-execution Validation
+1. Read lockfile.
+2. Fetch registry index.
+3. Resolve latest versions.
+
+## Output Standard
+Outdated report table.
+
+## Exit Condition
+You are done when:
+- Report displayed; exit code 1 if outdated items exist.

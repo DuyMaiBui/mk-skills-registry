@@ -1,11 +1,11 @@
 ---
 name: mk-search
-description: mk <module> search <query> — Search the registry for skills or agents.
+description: mk <module> search <query> [--agent] — Search the registry for skills or agents.
 ---
 
 # mk-search
 
-## Detected Intent
+## Use This Skill When
 - "find skill"
 - "search skill"
 - "lookup skill"
@@ -13,10 +13,26 @@ description: mk <module> search <query> — Search the registry for skills or ag
 
 ## Command
 ```bash
-mk <module> search <query>
+mk <module> search <query> [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- Fetch registry index.
+- Filter by query across name, description, keywords.
+- Print results as a table.
+
+## Example Invocation
+User: "search for debug skills"
+→ Run: mk core search debug
+
+## Pre-execution Validation
+1. Check registry is configured.
+2. Fetch index.
+3. Normalize query for matching.
+
+## Output Standard
+Table of matching skills/agents with versions.
+
+## Exit Condition
+You are done when:
+- Search results displayed.

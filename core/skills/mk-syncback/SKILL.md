@@ -1,11 +1,11 @@
 ---
 name: mk-syncback
-description: mk <module> syncback — Publish local skill changes back to the registry.
+description: mk <module> syncback [--agent] — Publish local skill changes back to the registry.
 ---
 
 # mk-syncback
 
-## Detected Intent
+## Use This Skill When
 - "sync changes"
 - "push updates"
 - "publish updates"
@@ -13,10 +13,27 @@ description: mk <module> syncback — Publish local skill changes back to the re
 
 ## Command
 ```bash
-mk <module> syncback
+mk <module> syncback [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- For each installed item, detect local modifications.
+- Validate before publishing.
+- Prompt for new version.
+- Publish and update lockfile.
+
+## Example Invocation
+User: "sync my local changes"
+→ Run: mk core syncback
+
+## Pre-execution Validation
+1. Identify installed items with local changes.
+2. Validate each modified item.
+3. Prompt for version bump.
+
+## Output Standard
+Summary of published updates.
+
+## Exit Condition
+You are done when:
+- Local changes are synced to registry.

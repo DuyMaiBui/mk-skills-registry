@@ -1,11 +1,11 @@
 ---
 name: mk-info
-description: mk <module> info <name> — Show metadata for a skill or agent.
+description: mk <module> info <name> [--agent] — Show metadata for a skill or agent.
 ---
 
 # mk-info
 
-## Detected Intent
+## Use This Skill When
 - "skill info"
 - "details"
 - "about skill"
@@ -13,10 +13,25 @@ description: mk <module> info <name> — Show metadata for a skill or agent.
 
 ## Command
 ```bash
-mk <module> info <name>
+mk <module> info <name> [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- Fetch registry index.
+- Show name, version, description, author, keywords, dependencies.
+
+## Example Invocation
+User: "tell me about the build skill"
+→ Run: mk core info build
+
+## Pre-execution Validation
+1. Check registry is configured.
+2. Fetch index.
+3. Verify item exists in module.
+
+## Output Standard
+Skill/agent metadata.
+
+## Exit Condition
+You are done when:
+- Metadata displayed.

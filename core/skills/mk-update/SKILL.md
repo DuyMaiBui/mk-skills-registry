@@ -1,21 +1,38 @@
 ---
 name: mk-update
-description: mk <module> update [name] — Update installed skills or agents to the latest version.
+description: mk <module> update [name] [--agent] — Update installed skills or agents to the latest version.
 ---
 
 # mk-update
 
-## Detected Intent
+## Use This Skill When
 - "update skills"
 - "upgrade skills"
 - "mk update"
 
 ## Command
 ```bash
-mk <module> update [name]
+mk <module> update [name] [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- If name provided, update that item.
+- If no name, update all items in module.
+- Compare installed version vs latest from registry.
+- Install latest version for outdated items.
+
+## Example Invocation
+User: "update all core skills"
+→ Run: mk core update
+
+## Pre-execution Validation
+1. Read lockfile.
+2. Fetch registry index.
+3. Identify outdated items.
+
+## Output Standard
+Summary of updated items.
+
+## Exit Condition
+You are done when:
+- Outdated items updated to latest.

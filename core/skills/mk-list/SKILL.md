@@ -1,11 +1,11 @@
 ---
 name: mk-list
-description: mk <module> list — List installed skills or agents.
+description: mk <module> list [--agent] — List installed skills or agents.
 ---
 
 # mk-list
 
-## Detected Intent
+## Use This Skill When
 - "list skills"
 - "show installed"
 - "what skills"
@@ -13,10 +13,25 @@ description: mk <module> list — List installed skills or agents.
 
 ## Command
 ```bash
-mk <module> list
+mk <module> list [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- Read .opencode/ directory.
+- Show name and version from lockfile or skill.json.
+- Format as a table.
+
+## Example Invocation
+User: "what skills are installed?"
+→ Run: mk core list
+
+## Pre-execution Validation
+1. Check module directory exists.
+2. Read lockfile for versions.
+
+## Output Standard
+Table of installed items with versions.
+
+## Exit Condition
+You are done when:
+- List is displayed.

@@ -1,11 +1,11 @@
 ---
 name: mk-create
-description: mk <module> create <name> — Create a new skill or agent scaffold.
+description: mk <module> create <name> [--agent] — Create a new skill or agent scaffold.
 ---
 
 # mk-create
 
-## Detected Intent
+## Use This Skill When
 - "create skill"
 - "new skill"
 - "scaffold agent"
@@ -13,10 +13,26 @@ description: mk <module> create <name> — Create a new skill or agent scaffold.
 
 ## Command
 ```bash
-mk <module> create <name>
+mk <module> create <name> [--agent]
 ```
 
-## Validation
-1. Verify module name is valid (core or unity).
-2. Extract name/version from user message when applicable.
-3. Run the corresponding mk command.
+## Rules
+- Validate module name.
+- Generate SKILL.md for skills or .md for agents.
+- Use consistent frontmatter and template sections.
+
+## Example Invocation
+User: "create a skill called auth"
+→ Run: mk core create auth
+
+## Pre-execution Validation
+1. Check module is valid.
+2. Check name is provided and valid.
+3. Ensure target directory does not already exist.
+
+## Output Standard
+Path to created scaffold file(s).
+
+## Exit Condition
+You are done when:
+- Skill or agent scaffold is created and valid.

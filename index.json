@@ -3,6 +3,9 @@
   "modules": {
     "core": {
       "skills": {
+        "brainstorm": {
+          "1.0.0": "core/skills/brainstorm/1.0.0.tar.gz"
+        },
         "build": {
           "1.0.0": "core/skills/build/1.0.0.tar.gz"
         },
@@ -17,9 +20,6 @@
         },
         "git": {
           "1.0.0": "core/skills/git/1.0.0.tar.gz"
-        },
-        "git-workflow": {
-          "1.0.0": "core/skills/git-workflow/1.0.0.tar.gz"
         },
         "handoff": {
           "1.0.0": "core/skills/handoff/1.0.0.tar.gz"
@@ -87,10 +87,10 @@
       },
       "agents": {
         "build": {
-          "1.0.0": "core/agents/build/1.0.0.tar.gz"
+          "1.0.0": "core/agents/build.tar.gz"
         },
         "plan": {
-          "1.0.0": "core/agents/plan/1.0.0.tar.gz"
+          "1.0.0": "core/agents/plan.tar.gz"
         }
       }
     },
@@ -98,19 +98,19 @@
       "skills": {},
       "agents": {
         "unity-code-conventions": {
-          "1.0.0": "unity/agents/unity-code-conventions/1.0.0.tar.gz"
+          "1.0.0": "unity/agents/unity-code-conventions.tar.gz"
         },
         "unity-editor-developer": {
-          "1.0.0": "unity/agents/unity-editor-developer/1.0.0.tar.gz"
+          "1.0.0": "unity/agents/unity-editor-developer.tar.gz"
         },
         "unity-reviewer": {
-          "1.0.0": "unity/agents/unity-reviewer/1.0.0.tar.gz"
+          "1.0.0": "unity/agents/unity-reviewer.tar.gz"
         },
         "unity-runtime-developer": {
-          "1.0.0": "unity/agents/unity-runtime-developer/1.0.0.tar.gz"
+          "1.0.0": "unity/agents/unity-runtime-developer.tar.gz"
         },
         "unity-tester": {
-          "1.0.0": "unity/agents/unity-tester/1.0.0.tar.gz"
+          "1.0.0": "unity/agents/unity-tester.tar.gz"
         }
       }
     }
