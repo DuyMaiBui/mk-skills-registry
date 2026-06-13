@@ -1,5 +1,5 @@
 ---
-name: builder
+name: build
 description: let build, build it, implement now, start build, /build; implement only from the approved canonical plan, or handle the repo-local no-plan build safety gate first. Use when execution should begin without renegotiating scope.
 ---
 

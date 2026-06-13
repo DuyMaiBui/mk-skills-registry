@@ -1,5 +1,5 @@
 ---
-name: planner
+name: plan
 description: Top-level phase agent for planning. Use after brainstorm approval, or when the user explicitly says `create plan`, `make plan`, `plan it`, or `/plan`, to produce the executable repo-local plan for build.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: builder
+name: build
 description: Top-level phase agent for build. Use after plan approval, or when the user explicitly says `let build`, `build it`, `implement now`, `start build`, or `/build`, to execute the canonical plan or handle the repo-local no-plan safety gate first.
 ---
 

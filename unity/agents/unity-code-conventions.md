@@ -1,5 +1,5 @@
 ---
-name: unity-conventions
+name: unity-code-conventions
 description: Unity conventions, module structure, and stack guidance for this repo. Use when implementing, testing, reviewing, or updating Unity-focused prompts and workflows here.
 ---
 
