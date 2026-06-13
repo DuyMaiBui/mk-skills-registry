@@ -1,5 +1,5 @@
 {
-  "name": "@DuyMaiBui/mk-cli",
+  "name": "@DuyMaiBui/mk-skills-registry-cli",
   "version": "1.0.0",
   "description": "CLI tool for managing OpenCode skills with mk-* modular helpers",
   "main": "dist/index.js",

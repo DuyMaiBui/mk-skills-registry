@@ -7,7 +7,7 @@ CLI tool for managing OpenCode skills with modular `mk-*` helper skills.
 Install globally from npm:
 
 ```bash
-npm install -g @DuyMaiBui/mk-cli
+npm install -g @DuyMaiBui/mk-skills-registry-cli
 ```
 
 Verify the installation:
