@@ -6,6 +6,12 @@
         "brainstorm": {
           "1.0.0": "core/skills/brainstorm/1.0.0.tar.gz"
         },
+        "brainstormer": {
+          "1.0.0": "core/skills/brainstormer/1.0.0.tar.gz"
+        },
+        "builder": {
+          "1.0.0": "core/skills/builder/1.0.0.tar.gz"
+        },
         "cook": {
           "1.0.0": "core/skills/cook/1.0.0.tar.gz"
         },
@@ -20,6 +26,9 @@
         },
         "git": {
           "1.0.0": "core/skills/git/1.0.0.tar.gz"
+        },
+        "git-workflow": {
+          "1.0.0": "core/skills/git-workflow/1.0.0.tar.gz"
         },
         "handoff": {
           "1.0.0": "core/skills/handoff/1.0.0.tar.gz"
@@ -66,6 +75,9 @@
         "plan": {
           "1.0.0": "core/skills/plan/1.0.0.tar.gz"
         },
+        "planner": {
+          "1.0.0": "core/skills/planner/1.0.0.tar.gz"
+        },
         "research": {
           "1.0.0": "core/skills/research/1.0.0.tar.gz"
         },
@@ -85,7 +97,17 @@
           "1.0.0": "core/skills/watzup/1.0.0.tar.gz"
         }
       },
-      "agents": {}
+      "agents": {
+        "brainstormer": {
+          "1.0.0": "core/agents/brainstormer/1.0.0.tar.gz"
+        },
+        "builder": {
+          "1.0.0": "core/agents/builder/1.0.0.tar.gz"
+        },
+        "planner": {
+          "1.0.0": "core/agents/planner/1.0.0.tar.gz"
+        }
+      }
     },
     "unity": {
       "skills": {},
