@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander';
+import { createRequire } from 'node:module';
 import { createCommand } from './commands/module/create.js';
 import { validateCommand } from './commands/module/validate.js';
 import { publishCommand } from './commands/module/publish.js';
@@ -15,12 +16,15 @@ import { syncbackCommand } from './commands/module/syncback.js';
 import { initCommand } from './commands/init.js';
 import { registryInitCommand } from './commands/registry-init.js';
 
+const require = createRequire(import.meta.url);
+const { version } = require('../package.json');
+
 const program = new Command();
 
 program
   .name('mk')
   .description('CLI for managing OpenCode skills')
-  .version('1.0.0');
+  .version(version);
 
 // Global commands
 program
