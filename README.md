@@ -1,6 +1,6 @@
 # mk Skills Registry
 
-Git-based registry for OpenCode skills consumed by [`@mike/mk-cli`](https://www.npmjs.com/package/@mike/mk-cli).
+Git-based registry for OpenCode skills consumed by [`@duymaibui/mk-skills-registry-cli`](https://github.com/DuyMaiBui/mk-skills-registry/pkgs/npm/mk-skills-registry-cli), published via [GitHub Packages](https://npm.pkg.github.com).
 
 ## Modules
 

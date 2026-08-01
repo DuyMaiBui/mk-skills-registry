@@ -1,9 +1,13 @@
 {
-  "name": "@DuyMaiBui/mk-skills-registry-cli",
-  "version": "1.0.0",
+  "name": "@duymaibui/mk-skills-registry-cli",
+  "version": "1.0.1",
   "description": "CLI tool for managing OpenCode skills with mk-* modular helpers",
   "main": "dist/index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuyMaiBui/mk-skills-registry.git"
+  },
   "bin": {
     "mk": "dist/index.js"
   },

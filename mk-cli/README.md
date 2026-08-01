@@ -4,10 +4,20 @@ CLI tool for managing OpenCode skills with modular `mk-*` helper skills.
 
 ## Installation
 
-Install globally from npm:
+This package is distributed via [GitHub Packages](https://github.com/DuyMaiBui/mk-skills-registry/pkgs/npm/mk-skills-registry-cli).
+
+Configure npm to resolve the `@duymaibui` scope from GitHub Packages. Add to `~/.npmrc` (or the project's `.npmrc`):
+
+```
+@duymaibui:registry=https://npm.pkg.github.com
+```
+
+> The package is public, so no auth token is required to install it.
+
+Then install globally:
 
 ```bash
-npm install -g @DuyMaiBui/mk-skills-registry-cli
+npm install -g @duymaibui/mk-skills-registry-cli
 ```
 
 Verify the installation:
