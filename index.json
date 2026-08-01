@@ -87,10 +87,10 @@
       },
       "agents": {
         "build": {
-          "1.0.0": "core/agents/build.tar.gz"
+          "1.0.0": "core/agents/build/1.0.0.tar.gz"
         },
         "plan": {
-          "1.0.0": "core/agents/plan.tar.gz"
+          "1.0.0": "core/agents/plan/1.0.0.tar.gz"
         }
       }
     },
@@ -98,19 +98,19 @@
       "skills": {},
       "agents": {
         "unity-code-conventions": {
-          "1.0.0": "unity/agents/unity-code-conventions.tar.gz"
+          "1.0.0": "unity/agents/unity-code-conventions/1.0.0.tar.gz"
         },
         "unity-editor-developer": {
-          "1.0.0": "unity/agents/unity-editor-developer.tar.gz"
+          "1.0.0": "unity/agents/unity-editor-developer/1.0.0.tar.gz"
         },
         "unity-reviewer": {
-          "1.0.0": "unity/agents/unity-reviewer.tar.gz"
+          "1.0.0": "unity/agents/unity-reviewer/1.0.0.tar.gz"
         },
         "unity-runtime-developer": {
-          "1.0.0": "unity/agents/unity-runtime-developer.tar.gz"
+          "1.0.0": "unity/agents/unity-runtime-developer/1.0.0.tar.gz"
         },
         "unity-tester": {
-          "1.0.0": "unity/agents/unity-tester.tar.gz"
+          "1.0.0": "unity/agents/unity-tester/1.0.0.tar.gz"
         }
       }
     }
