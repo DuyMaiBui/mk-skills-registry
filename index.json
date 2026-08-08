@@ -12,7 +12,8 @@
           "1.0.1": "core/skills/build/1.0.1.tar.gz"
         },
         "debug": {
-          "1.0.0": "core/skills/debug/1.0.0.tar.gz"
+          "1.0.0": "core/skills/debug/1.0.0.tar.gz",
+          "1.0.1": "core/skills/debug/1.0.1.tar.gz"
         },
         "docs": {
           "1.0.0": "core/skills/docs/1.0.0.tar.gz"
