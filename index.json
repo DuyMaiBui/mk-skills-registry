@@ -64,7 +64,8 @@
           "1.0.1": "core/skills/mk-registry-init/1.0.1.tar.gz"
         },
         "mk-search": {
-          "1.0.0": "core/skills/mk-search/1.0.0.tar.gz"
+          "1.0.0": "core/skills/mk-search/1.0.0.tar.gz",
+          "1.0.1": "core/skills/mk-search/1.0.1.tar.gz"
         },
         "mk-syncback": {
           "1.0.0": "core/skills/mk-syncback/1.0.0.tar.gz"
