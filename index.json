@@ -72,7 +72,8 @@
           "1.0.1": "core/skills/mk-syncback/1.0.1.tar.gz"
         },
         "mk-uninstall": {
-          "1.0.0": "core/skills/mk-uninstall/1.0.0.tar.gz"
+          "1.0.0": "core/skills/mk-uninstall/1.0.0.tar.gz",
+          "1.0.1": "core/skills/mk-uninstall/1.0.1.tar.gz"
         },
         "mk-update": {
           "1.0.0": "core/skills/mk-update/1.0.0.tar.gz"
