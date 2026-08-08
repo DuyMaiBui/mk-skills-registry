@@ -56,7 +56,8 @@
           "1.0.1": "core/skills/mk-outdated/1.0.1.tar.gz"
         },
         "mk-publish": {
-          "1.0.0": "core/skills/mk-publish/1.0.0.tar.gz"
+          "1.0.0": "core/skills/mk-publish/1.0.0.tar.gz",
+          "1.0.1": "core/skills/mk-publish/1.0.1.tar.gz"
         },
         "mk-registry-init": {
           "1.0.0": "core/skills/mk-registry-init/1.0.0.tar.gz"
