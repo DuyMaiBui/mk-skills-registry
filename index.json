@@ -24,7 +24,8 @@
           "1.0.1": "core/skills/fix/1.0.1.tar.gz"
         },
         "git": {
-          "1.0.0": "core/skills/git/1.0.0.tar.gz"
+          "1.0.0": "core/skills/git/1.0.0.tar.gz",
+          "1.0.1": "core/skills/git/1.0.1.tar.gz"
         },
         "handoff": {
           "1.0.0": "core/skills/handoff/1.0.0.tar.gz"
