@@ -92,7 +92,8 @@
           "1.0.1": "core/skills/research/1.0.1.tar.gz"
         },
         "review": {
-          "1.0.0": "core/skills/review/1.0.0.tar.gz"
+          "1.0.0": "core/skills/review/1.0.0.tar.gz",
+          "1.0.1": "core/skills/review/1.0.1.tar.gz"
         },
         "scout": {
           "1.0.0": "core/skills/scout/1.0.0.tar.gz"
