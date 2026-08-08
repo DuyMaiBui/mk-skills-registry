@@ -16,7 +16,8 @@
           "1.0.1": "core/skills/debug/1.0.1.tar.gz"
         },
         "docs": {
-          "1.0.0": "core/skills/docs/1.0.0.tar.gz"
+          "1.0.0": "core/skills/docs/1.0.0.tar.gz",
+          "1.0.1": "core/skills/docs/1.0.1.tar.gz"
         },
         "fix": {
           "1.0.0": "core/skills/fix/1.0.0.tar.gz"
