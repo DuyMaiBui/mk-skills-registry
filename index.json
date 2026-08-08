@@ -36,7 +36,8 @@
           "1.0.1": "core/skills/mk-create/1.0.1.tar.gz"
         },
         "mk-info": {
-          "1.0.0": "core/skills/mk-info/1.0.0.tar.gz"
+          "1.0.0": "core/skills/mk-info/1.0.0.tar.gz",
+          "1.0.1": "core/skills/mk-info/1.0.1.tar.gz"
         },
         "mk-init": {
           "1.0.0": "core/skills/mk-init/1.0.0.tar.gz"
