@@ -108,7 +108,8 @@
           "1.0.1": "core/skills/test/1.0.1.tar.gz"
         },
         "watzup": {
-          "1.0.0": "core/skills/watzup/1.0.0.tar.gz"
+          "1.0.0": "core/skills/watzup/1.0.0.tar.gz",
+          "1.0.1": "core/skills/watzup/1.0.1.tar.gz"
         }
       },
       "agents": {
