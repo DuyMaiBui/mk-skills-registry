@@ -120,7 +120,8 @@
         },
         "scout": {
           "1.0.0": "core/skills/scout/1.0.0.tar.gz",
-          "1.0.1": "core/skills/scout/1.0.1.tar.gz"
+          "1.0.1": "core/skills/scout/1.0.1.tar.gz",
+          "1.0.2": "core/skills/scout/1.0.2.tar.gz"
         },
         "team": {
           "1.0.0": "core/skills/team/1.0.0.tar.gz",
