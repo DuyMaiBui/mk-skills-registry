@@ -35,7 +35,8 @@
         },
         "handoff": {
           "1.0.0": "core/skills/handoff/1.0.0.tar.gz",
-          "1.0.1": "core/skills/handoff/1.0.1.tar.gz"
+          "1.0.1": "core/skills/handoff/1.0.1.tar.gz",
+          "1.0.2": "core/skills/handoff/1.0.2.tar.gz"
         },
         "mk-create": {
           "1.0.0": "core/skills/mk-create/1.0.0.tar.gz",
