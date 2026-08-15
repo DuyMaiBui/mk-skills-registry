@@ -5,7 +5,8 @@
       "skills": {
         "brainstorm": {
           "1.0.0": "core/skills/brainstorm/1.0.0.tar.gz",
-          "1.0.1": "core/skills/brainstorm/1.0.1.tar.gz"
+          "1.0.1": "core/skills/brainstorm/1.0.1.tar.gz",
+          "1.0.2": "core/skills/brainstorm/1.0.2.tar.gz"
         },
         "build": {
           "1.0.0": "core/skills/build/1.0.0.tar.gz",
