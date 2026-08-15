@@ -95,7 +95,8 @@
         },
         "mk-update": {
           "1.0.0": "core/skills/mk-update/1.0.0.tar.gz",
-          "1.0.1": "core/skills/mk-update/1.0.1.tar.gz"
+          "1.0.1": "core/skills/mk-update/1.0.1.tar.gz",
+          "1.0.2": "core/skills/mk-update/1.0.2.tar.gz"
         },
         "mk-validate": {
           "1.0.0": "core/skills/mk-validate/1.0.0.tar.gz",
