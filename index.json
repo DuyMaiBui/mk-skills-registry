@@ -105,7 +105,8 @@
         },
         "plan": {
           "1.0.0": "core/skills/plan/1.0.0.tar.gz",
-          "1.0.1": "core/skills/plan/1.0.1.tar.gz"
+          "1.0.1": "core/skills/plan/1.0.1.tar.gz",
+          "1.0.2": "core/skills/plan/1.0.2.tar.gz"
         },
         "research": {
           "1.0.0": "core/skills/research/1.0.0.tar.gz",
