@@ -125,7 +125,8 @@
         },
         "team": {
           "1.0.0": "core/skills/team/1.0.0.tar.gz",
-          "1.0.1": "core/skills/team/1.0.1.tar.gz"
+          "1.0.1": "core/skills/team/1.0.1.tar.gz",
+          "1.0.2": "core/skills/team/1.0.2.tar.gz"
         },
         "test": {
           "1.0.0": "core/skills/test/1.0.0.tar.gz",
